@@ -20,6 +20,10 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
+
+// routes//
+
+
 app.listen(PORT, () => {
   console.log(`🌎 ==> Server now on port ${PORT}!`);
 });
