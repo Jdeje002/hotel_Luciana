@@ -1,0 +1,7 @@
+.jumbotron{
+background-image: url("../../assets/main.jpg");
+padding-top: 0px;
+padding-bottom:0px;
+background-size: cover;
+height:600px;
+}
