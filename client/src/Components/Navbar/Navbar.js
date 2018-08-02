@@ -2,20 +2,32 @@ import React from "react";
 import "./Navbar.css";
 
 
-const Navbar = props => 
+const Navbar = props =>
 
-<div className="nav-wrapper">
-<nav>
-  <a  href="/"><img id="logo" src=''></img></a>
-  <ul id="nav-mobile" className="hide-on-med-and-down">
-    <li><a className="navText" href="#">Photo</a></li>
-    <li><a className="navText" href="#">Directions</a></li>
-    <li><a className="navText" href="#">Contact us</a></li>
-    <li><a className="navText" href="#">Blog</a></li>
-  </ul>
-  <img href="/Cart" id="bag" src={bag}></img>
-  </nav>
-</div>
+    <div className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
 
 export default Navbar;
