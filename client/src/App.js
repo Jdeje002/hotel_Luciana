@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
-import Navbar from "./Components/Navbar";
-
+import Navbar from "./Components/Navbar"
+import Main from "./assets/main.jpg"
+import Jumbotron from "./Components/Jumbotron"
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1> <Navbar/> </h1>
+      <div className="landing">
+      <Navbar />
+      <Jumbotron/>
       </div>
     );
   }
