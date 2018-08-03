@@ -21,7 +21,7 @@ class Navbar extends Component {
                                 <a className="nav-link" href="#">Things To Do</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Rooms</a>
+                                <a className="nav-link" href="#">Suites</a>
                             </li>
                         </ul>
                         <a className="navbar-brand" href="#"><img src={Logo} alt="" /></a>
